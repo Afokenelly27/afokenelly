@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-image: conic-gradient(rgb(87, 38, 87),rgb(22, 22, 145),rgb(192, 21, 49));
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+nav ul li {
+list-style-type: none;
+display: inline-block;
+padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: rgb(250, 15, 15);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.about-text h5 {
+    color: rgb(252, 247, 247);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h3 {
+    color: rgb(250, 245, 245);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+span {
+color: #f9004d;
+}
+.about-text p {
+    color: rgba(254, 254, 254, 0.961);
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+/**text-shadow: 2px 3px red;*/
+}
+.about-text ul li {
+    color: bisque;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+/* contact section */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+}
+body {
+    background: #191919;
+} 
+
+.contact  {
+    color: #fcfc;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+}
+
+.contact-me1 {
+    width: 300px;
+    background: #fff;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.title h2 {
+    color: #191919;
+    clear: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contact-form,
+.form-item {
+    width: 100%;
+}
+.form-item .input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.form-item .input .message {
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer; 
+}
+.contact-form .fa-solid {
+    margin-left: 10px;
+    font-size: 12px;
+}
+.form-item {
+    position: relative;
+}
+.form-item .fa-solid {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a99aa;
+}
+.social-icon {
+position: relative;
+bottom: -25px;
+left: 50%;
+transform: translateX(-50%);
+width: 20%;
+display: flex;
+justify-content: space-around;
+}
+.social-icon div {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.social-icon div .fa-brands {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #fff;
+}
+.social-icon div.insta {
+    background: #5851db;
+}
+.social-icon div.face {
+background: #5178d9;
+}
+.social-icon div.what {
+background: #4fce5d;
+}
+.social-icon div.twi {
+background: #41caf6;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+   /** width: 100%;
+    background: #d40d0d;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px; 
+    position: relative; */
+}
+.top h2 {
+    color: #f60f0fd2;
+    clear: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.top ul li {
+    color: bisque;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    }
+
+    .top p {
+        color: white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+/**.register-form
+.form-content {
+    width: 100%;
+}
+.form-content .input2 {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 14px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.btn1 {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn1:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+p {
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    }
+    .sign-in-block {
+        width: 100%;
+        height: 290px;
+        background: #191919;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sign-in-block h2 {
+        color: #fff;
+        clear: #535274;
+        letter-spacing: 5px;
+        margin-bottom: 25px;
+        text-align: center; 
+    }
+    .sign-in-block .button1 {
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    .sign-in-block .button1:hover {
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;  
+    }
+    .social-icon div.face:hover {
+        background-color: transparent;
+        border: 2px solid transparent;
+        cursor: pointer;
+    }
+    .social-icon div.insta:hover {
+        background-color: transparent;
+        border: 2px solid transparent;
+        cursor: pointer;   
+    }
+    .social-icon div.twi:hover {
+        background-color: transparent;
+        border: 2px solid transparent;
+        cursor: pointer;
+    }    
+    .social-icon div.what:hover {
+        background-color: transparent;
+        border: 2px solid transparent;
+        cursor: pointer;
+    }
+    .login-form .fa-solid{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.form-items {
+    position: relative;
+}
+.form-items .fa-solid {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a99aa;
+} */
+    
